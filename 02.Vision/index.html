@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#vision" class="md-skip">
+        <a href="#02-vision" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Vision
+              02-Vision
             
           </span>
         </div>
@@ -211,7 +211,7 @@
   
     <li class="md-nav__item">
       <a href="../00.Description/" class="md-nav__link">
-        Description
+        00-Description
       </a>
     </li>
   
@@ -226,7 +226,7 @@
   
     <li class="md-nav__item">
       <a href="../01.IntroductionAndGoals/" class="md-nav__link">
-        Introduction and Goals
+        01-Introduction and Goals
       </a>
     </li>
   
@@ -250,12 +250,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Vision
+          02-Vision
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Vision
+        02-Vision
       </a>
       
         
@@ -377,7 +377,7 @@
   
     <li class="md-nav__item">
       <a href="../03.BigPicture/" class="md-nav__link">
-        Big Picure
+        03-Big Picure (Container)
       </a>
     </li>
   
@@ -392,7 +392,7 @@
   
     <li class="md-nav__item">
       <a href="../04.DomainModel/" class="md-nav__link">
-        Domain Model
+        04-Domain Model
       </a>
     </li>
   
@@ -407,7 +407,7 @@
   
     <li class="md-nav__item">
       <a href="../05.UseCases/" class="md-nav__link">
-        Use Cases
+        05-Use Cases
       </a>
     </li>
   
@@ -422,7 +422,22 @@
   
     <li class="md-nav__item">
       <a href="../20.Glossary/" class="md-nav__link">
-        Gloassary
+        20-Gloassary
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/" class="md-nav__link">
+        UseCases
       </a>
     </li>
   
@@ -554,21 +569,28 @@
               
                 
                 
-                <h1 id="vision">Vision</h1>
+                <h1 id="02-vision">02-Vision</h1>
 <h2 id="context">Context</h2>
 <h3 id="was-soll-gebaut-werden">Was soll gebaut werden?</h3>
+<p>Eine Software:</p>
 <ul>
-<li>Eine Software, mit der ein Sachbearbeiter Kunden und Autos erfassen kann.</li>
-<li>Eine Software, mit der Kunden Autos für einen gewünschnten Zeitraum reservieren und mieten können.</li>
+<li>mit der ein Sachbearbeiter:<ul>
+<li>Kunden und Autos verwalten kann (Add/Edit/Delete/Search).</li>
+</ul>
+</li>
+<li>mit der eine Kunde:<ul>
+<li>Autos für einen Zeitraum reservieren bzw. mieten kann.</li>
+</ul>
+</li>
 </ul>
 <h3 id="wer-benutzt-das-system">Wer benutzt das System?</h3>
 <ul>
 <li>Sachbearbeiter</li>
-<li>Kunden</li>
+<li>Kunde</li>
 </ul>
 <h3 id="wie-passt-es-in-die-bestehende-it-landschaft">Wie passt es in die bestehende IT-Landschaft?</h3>
 <ul>
-<li>Es gibt zwar besser noch keine bestehende IT-Landschaft.</li>
+<li>Es gibt noch keine bestehende IT-Landschaft.</li>
 </ul>
 <h2 id="containers">Containers</h2>
 <h3 id="was-sind-die-technologischen-entscheide">Was sind die technologischen Entscheide?</h3>
@@ -581,7 +603,7 @@
 <li>ASP.NET Core</li>
 <li>Entity Framework</li>
 <li>Testing<ul>
-<li>x-Unit</li>
+<li>NUnit</li>
 <li>Moq</li>
 <li>FluentAssertion</li>
 </ul>
@@ -637,14 +659,32 @@
 </ul>
 <h3 id="ist-klar-wie-das-system-high-level-arbeiten-soll">Ist klar wie das System „high-level“ arbeiten soll?</h3>
 <ul>
-<li>Der Sachbearbeiter kann im Webclient ein Kunde erfassen.</li>
+<li>Der Sachbearbeiter kann im Webclient Kunden verwalten.</li>
+<li>Er kann nach Kunden mit Name, Adresse oder ID suchen und der Kunde bearbeiten oder Löschen</li>
 <li>Dazu muss er die entsprechenden Daten bei sich im Browser eingeben.</li>
+<li>Die Daten werden im Browser validiert.</li>
 <li>Beim Klick auf Speichern wird ein HTTP POST Request mit den entsprechenden Daten im Payload auf die Backend ASP .NET API gemacht.</li>
-<li>Diese validiert die Daten.<ul>
+<li>
+<p>Diese validiert die Daten:</p>
+<ul>
+<li>Falls ungültige KundeID, dann gibt sie ein HTTP Status 404 zurück.</li>
 <li>Falls ungültig gibt sie ein HTTP Status 400 zurück.</li>
-<li>Falls gültig erstellt sie im Entity Framework ein neues Objekt und speichert es in der Datenbank.</li>
-<li>Sobald das Objekt erfolgreich gespeichert wurde gibt die API einen HTTP Status 201 zurück.</li>
-<li>Die Webapplikation kann dann entsprechend mit einer Erfolgsmeldung darauf reagieren.</li>
+<li>Falls gültig, werden die Daten in der Datenbank gespeichert und die API gibt einen HTTP Status 201 zurück.</li>
+<li>Im Browser wird anhand einer "Toaster" angezeigt, ob die Request erfolgreich oder erfolglos war.</li>
+</ul>
+</li>
+<li>
+<p>Als Kunden kann man sich im system registrieren</p>
+</li>
+<li>Dann eine "Autoklasse" auswählen</li>
+<li>Dann wird eine Zeitraum ausgewählt (Star-/Enddatum)</li>
+<li>Beim Klick auf Speichern wird ein HHTP Post Request mit dem entsprechenden Daten im Paylod auf die Backend ASP .NET API gemacht</li>
+<li>Diese validiert die Daten:<ul>
+<li>Falls ungültige KundeID, dann gibt sie ein HTTP Status 404 zurück.</li>
+<li>Falls ungültig gibt sie ein HTTP Status 400 zurück.</li>
+<li>Falls gültig, erstellt sie im Entity Framework ein neues Objekt und speichert es in der Datenbank.</li>
+<li>Sobald das Objekt erfolgreich gespeichert wurde, gibt die API einen HTTP Status 201 zurück.</li>
+<li>Im Browser wird anhand einer "Toaster" angezeigt, ob die Request erfolgreich oder erfolglos war.</li>
 </ul>
 </li>
 </ul>
