@@ -6,12 +6,12 @@ theme:
   logo: images/car-rental-logo.png
   palette:
     - scheme: default
-      primary: red
+      primary: deep-orange
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: red
+      primary: deep-orange
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
