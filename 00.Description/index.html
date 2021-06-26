@@ -9,7 +9,7 @@
       
       
       
-        <link rel="canonical" href="01.IntroductionAndGoals/">
+        <link rel="canonical" href="00.Description/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.8">
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction-and-goals" class="md-skip">
+        <a href="#description" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction and Goals
+              Description
             
           </span>
         </div>
@@ -208,21 +208,6 @@
 
   
   
-  
-    <li class="md-nav__item">
-      <a href="../00.Description/" class="md-nav__link">
-        Description
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
     
   
   
@@ -234,40 +219,25 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Introduction and Goals
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Introduction and Goals
+        Description
       </a>
       
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+    </li>
   
-  
-  
+
     
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    Overview
-  </a>
-  
-</li>
       
-    </ul>
-  
-</nav>
       
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01.IntroductionAndGoals/" class="md-nav__link">
+        Introduction and Goals
+      </a>
     </li>
   
 
@@ -366,21 +336,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    Overview
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -392,17 +347,129 @@
               
                 
                 
-                <h1 id="introduction-and-goals">Introduction and Goals</h1>
-<h2 id="overview">Overview</h2>
-<p>Es soll ein neues Autovermietungssystem „CarRent“ erstellt werden.
-Das System soll aus Server-Teilen und optional einen Web-Client bestehen.</p>
-<ol>
-<li>Die Daten sollen mittels «Repository Pattern» in eine Datenbank gespeichert werden können. </li>
-<li>Die Business Logik soll auf dem Backend laufen und REST APIs anbieten. </li>
-<li>Es soll zuerst ein Monolith erstellt werden und später auf eine Micro Service Architektur überführt werden.</li>
-<li>(Optional) Der Web-Client benutzt die REST API um die Funktionen auszuführen.</li>
-</ol>
-<p><img src="/images/overview.drawio.png" alt="model" width="800"/></p>
+                <h1 id="description">Description</h1>
+<h1 id="1-einleitung">1 Einleitung</h1>
+<p>Um eine saubere Architektur in einem Projekt zu erreichen, die einerseits alle Zuständigkeiten klärt und abgrenzt
+und zudem eine Verteilung auf verschiedene Layers und Tiers ermöglicht, müssen in Visual Studio mehrere Projekte angelegt werden.</p>
+<p>Wir wollen zudem die Möglichkeit haben alle internen und externen Abhängigkeiten zentral zu verwalten.</p>
+<h1 id="2-initiale-voraussetzungen">2 Initiale Voraussetzungen</h1>
+<ul>
+<li>VS2019 / .NET Core</li>
+<li>Nodejs</li>
+<li>NPM</li>
+<li>Postman</li>
+</ul>
+<h1 id="3-einfuhrung">3 Einführung</h1>
+<p>Es soll ein neues Autovermietungssystem „CarRent“ erstellt werden. Das System soll aus Server-Teilen und
+optional einen Web-Client bestehen.
+1. Die Daten sollen mittels «Repository Pattern» in eine Datenbank gespeichert werden können.
+2. Die Business Logik soll auf dem Backend laufen und REST APIs anbieten.
+3. Es soll zuerst ein Monolith erstellt werden und später auf eine Micro Service Architektur überführt
+werden.
+Optional:
+4. Der Web-Client benutzt die REST API um die Funktionen auszuführen.</p>
+<p>Folgende Detailinformationen liegen unstrukturiert über das zu entwickelnde System vor:</p>
+<ul>
+<li>Der Sachbearbeiter kann Kunden mit Namen und Adresse und Kundennummer im System verwalten,
+d.h. erfassen, bearbeiten, löschen und den Kunden mit dessen Namen oder Kundennummer suchen.</li>
+<li>Der Sachbearbeiter kann zudem die Autos von CarRent verwalten und nach denen suchen.</li>
+<li>Jedes Auto kann einer bestimmten Klasse zwischen Luxusklasse, Mittelklasse oder Einfachklasse
+zugeordnet werden und besitzt zudem eine Marke, einen Typ und eine eindeutige Identifikation.</li>
+<li>Jede Klasse besitzt eine Tagesgebühr.</li>
+<li>Bei einer neuen Reservation kann der Kunde ein Auto aus einer bestimmten Klasse wählen. Er muss
+zudem die Anzahl der Tage (Start/Enddatum) angeben, die er das Auto gerne mieten möchte. Dabei
+werden die Gesamtkosten berechnet. Wird die Reservation gespeichert, so wird sie mit einer
+Reservationsnummer ablegt.</li>
+<li>Bei Abholung des Autos wird die Reservation in einen Mietvertrag umgewandel</li>
+</ul>
+<h2 id="31-c4-pattern">3.1 C4 Pattern</h2>
+<p><img src="/images/C4-Pattern.png" alt="model" width="800"/></p>
+<h1 id="4-arbeitspaket-1-big-picture-vision">4 Arbeitspaket 1 – Big Picture / Vision</h1>
+<p>Hilfsmittel: Whiteboard, Flipchart, Postit, Word, UML Tool, Markdown, … </p>
+<h3 id="411-context">4.1.1 Context</h3>
+<ul>
+<li>Was soll gebaut werden? </li>
+<li>Wer benutzt das System (users, actors, roles, personas, etc ? </li>
+<li>Wie passt es in die bestehende IT-Landschaft? </li>
+</ul>
+<h3 id="412-containers">4.1.2 Containers</h3>
+<ul>
+<li>Was sind die technologischen Entscheide? </li>
+<li>Wie kommunizieren die Container untereinander? </li>
+<li>Als Entwickler möchte ich gerne wissen, wo ich Code schreiben muss? </li>
+</ul>
+<h3 id="413-components">4.1.3 Components</h3>
+<ul>
+<li>Aus welchen Komponenten und Services besteht das System? </li>
+<li>Ist klar wie das System „high-level“ arbeiten soll? </li>
+<li>Haben alle Komponenten ein Zuhause Container? </li>
+</ul>
+<h3 id="414-classes-optional">4.1.4 Classes (Optional)</h3>
+<ul>
+<li>Was sind die wichtigen Konzepte des Systems? </li>
+<li>Wie stehen die Konzepte zueinander? </li>
+</ul>
+<h2 id="42-aufgabe">4.2 Aufgabe</h2>
+<p>Erstellen Sie mittels C4-Pattern das Big-Picture des Systems.</p>
+<h1 id="5-arbeitspaket-2-domain-model-und-use-cases">5 Arbeitspaket 2 – Domain Model und Use Cases</h1>
+<p>Hilfsmittel: UML Tool, Markdown, … </p>
+<h2 id="51-aufgabe">5.1 Aufgabe</h2>
+<p>Erstellen Sie das Domain Model und schreiben Sie die alle Use Cases im „Brief“-Format auf. </p>
+<h1 id="6-arbeitspaket-3-41-views">6 Arbeitspaket 3 – 4+1 Views</h1>
+<p>Hilfsmittel: UML Tool, Markdown, … </p>
+<h2 id="61-aufgabe">6.1 Aufgabe</h2>
+<h3 id="611-deployment-view">6.1.1 Deployment View</h3>
+<p>Erstellen Sie ein Deployment Diagram mit Hilfe des Container Diagram des Big Picture. </p>
+<h3 id="612-logical-view">6.1.2 Logical View</h3>
+<p>Erstellen Sie ein Component Diagram und ein Class Diagram mit Hilfe des Domain Models </p>
+<h3 id="613-implementation-view">6.1.3 Implementation View</h3>
+<p>Definieren Sie die Repository und Source-Struktur, sowie wichtige Elemente der Services und 
+Komponenten.</p>
+<h1 id="7-arbeitspaket-4-implementierung">7 Arbeitspaket 4 – Implementierung</h1>
+<p>Hilfsmittel: VS2019, … </p>
+<h2 id="71-aufgabe">7.1 Aufgabe</h2>
+<p>Implementieren Sie das System mit Hilfe der Anforderungen und den verschiedenen Architecture 
+Views. </p>
+<h1 id="8-arbeitspaket-5-continuous-integration-und-metriken">8 Arbeitspaket 5 – Continuous Integration und Metriken</h1>
+<p>Hilfsmittel: CI/CD (Travis, GitLab, ...), SonarQube, Code Analysis, …</p>
+<h2 id="81-aufgabe">8.1 Aufgabe</h2>
+<p>Hier soll der erstellen der jar, wars und weitere deployables automatisch nach jedem check-in gebaut 
+und getestet werden. Zudem soll das Buildsystem weitere Metriken (code-coverage, code-qualtity, …) 
+messen und darstellen. </p>
+<h1 id="9-arbeitspaket-6-dokumentation">9 Arbeitspaket 6 – Dokumentation</h1>
+<h2 id="91-aufgabe">9.1 Aufgabe</h2>
+<p>Jedes System braucht gewisse Dokumentation. Erstellen sie eine Dokumentation mit Markdown, die 
+sich ungefähr an die Vorgaben des arc42 halten.</p>
+<h1 id="10-bewertung">10 Bewertung</h1>
+<table>
+<thead>
+<tr>
+<th>Artifact</th>
+<th align="center">Inhalt</th>
+<th align="right">Bewertung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Software Architecture Document (arc42)</td>
+<td align="center">Big Picture &amp; Vision<br>SystemOverview <br>- C4 Pattern (w/o Classes) <br>Use Cases / Requirements <br>Domain Models and System Sequence Diagrams <br>Verschiedene Views (4+1) <br>- Logical <br>- Deployment <br>- Implementation <br>Qualitätsbaum für NFR <br>Teststrategie / -planung <br>Metrikdefinition</td>
+<td align="right">40%</td>
+</tr>
+<tr>
+<td>Architecture / Design / Source Code</td>
+<td align="center">GIT <br>- Client Code <br>- Server Code <br>Unit- / Integration- / System-Tests</td>
+<td align="right">40%</td>
+</tr>
+<tr>
+<td>Build &amp; Release</td>
+<td align="center">Automatischer Build &amp; Testing auf CI System <br>Automatische Messung von Metriken mit SonarQube</td>
+<td align="right">20%</td>
+</tr>
+</tbody>
+</table>
+<h1 id="11-abgabetermin">11 Abgabe/Termin</h1>
+<p>Date: 06. September 2021 23:59:59 </p>
+<p>Git-Repo Link auf cmenzi@crip.ch und Moodle Eintrag </p>
                 
               
               
