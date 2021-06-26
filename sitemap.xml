@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://ricardo17coelho.github.io/</loc>
+         <loc>https://example.com/</loc>
          <lastmod>2021-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricardo17coelho.github.io/00.Description/</loc>
+         <loc>https://example.com/00.Description/</loc>
          <lastmod>2021-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricardo17coelho.github.io/01.IntroductionAndGoals/</loc>
+         <loc>https://example.com/01.IntroductionAndGoals/</loc>
          <lastmod>2021-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricardo17coelho.github.io/02.Vision/</loc>
+         <loc>https://example.com/02.Vision/</loc>
          <lastmod>2021-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricardo17coelho.github.io/03.BigPicture/</loc>
+         <loc>https://example.com/03.BigPicture/</loc>
          <lastmod>2021-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricardo17coelho.github.io/04.DomainModel/</loc>
+         <loc>https://example.com/04.DomainModel/</loc>
          <lastmod>2021-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricardo17coelho.github.io/05.UseCases/</loc>
+         <loc>https://example.com/05.UseCases/</loc>
          <lastmod>2021-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricardo17coelho.github.io/20.Glossary/</loc>
+         <loc>https://example.com/20.Glossary/</loc>
          <lastmod>2021-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
