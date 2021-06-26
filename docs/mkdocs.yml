@@ -3,6 +3,7 @@ site_url: https://example.com
 theme:
   name: material
   custom_dir: overrides
+  logo: images/car-rental-logo.png
   palette:
     - scheme: default
       primary: red
