@@ -1,5 +1,5 @@
 site_name: ZbwCarRent
-site_url: https://example.com/
+site_url: https://ricardo17coelho.github.io/CarRent/
 theme:
   name: material
   custom_dir: overrides
