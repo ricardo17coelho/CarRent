@@ -118,6 +118,9 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation][docs-url]_
 
+### running mkdocs locally
+see [mkdocs page](https://www.mkdocs.org/getting-started/)
+
 
 <!-- ROADMAP -->
 ## 🚩Roadmap
