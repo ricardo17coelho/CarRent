@@ -5,3 +5,4 @@
 - [01-Introduction and Goals](./01.IntroductionAndGoals.md)
 - [02-Vision](./02.Vision.md)
 - [03-BigPicture](./03.BigPicture.md)
+- [04-DomainModel](./04.DomainModel.md)
