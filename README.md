@@ -121,6 +121,23 @@ _For more examples, please refer to the [Documentation][docs-url]_
 ### running mkdocs locally
 see [mkdocs page](https://www.mkdocs.org/getting-started/)
 
+### mkdocs commands
+install mkdocs
+```sh
+pip install mkdocs
+```
+install mkdocs material template
+```sh
+pip install mkdocs-material
+```
+serve locally
+```sh
+mkdocs serve
+```
+Publishing to github
+```sh
+mkdocs gh-deploy --force
+```
 
 <!-- ROADMAP -->
 ## 🚩Roadmap
