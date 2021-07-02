@@ -1,3 +1,6 @@
 [submodule "source/backend"]
 	path = source/backend
 	url = https://github.com/ricardo17coelho/carrent-api
+[submodule "source/frontend"]
+	path = source/frontend
+	url = https://github.com/ricardo17coelho/carrent-web
