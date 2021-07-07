@@ -1,0 +1,81 @@
+version: '3.4'
+
+services:
+  db:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    container_name: carrent-mssql-db
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=$DB_PASSWORD
+    ports:
+      - '$DB_PORT:$DB_PORT'
+    # volumes:
+    #   - mssql_data:/var/opt/mssql/data
+    networks:
+      - web_network
+      - db_network # for api reqs
+
+  backend:
+    image: ${DOCKER_REGISTRY-}carrent
+    container_name: carrent-api
+    build:
+      context: source/backend
+      dockerfile: src/Carrent/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+    depends_on:
+      - db
+    networks:
+      - web_network
+    ports:
+      - "5000:5000"
+    
+  frontend:
+    container_name: carrent-web
+    build:
+      context: source/frontend
+      args:
+        DEBUG: $DEBUG
+        NODE_ENV: $NODE_ENV
+    entrypoint: ./entrypoint.sh
+    restart: unless-stopped
+    volumes:
+      - ./source/frontend:/home/node/app
+      - /home/node/app/node_modules
+    environment:
+      NODE_ENV: $NODE_ENV
+      PORT: 8080
+      DEBUG: $DEBUG
+      VUE_APP_BASE_API: /api
+    depends_on:
+      - backend
+    networks:
+      - web_network
+    ports:
+      - "8080:8080"
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - 8000:80
+    volumes:
+      - web-root:/var/www/html
+      - ./config/nginx:/etc/nginx/conf.d/
+    depends_on:
+      - frontend
+      - backend
+      - db
+    networks:
+      - web_network
+
+networks:
+  web_network:
+    driver: bridge
+  db_network:
+    driver: bridge
+
+volumes:
+  mssql_data:
+    driver: local
+  web-root:
+    driver: local
