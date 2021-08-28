@@ -2,42 +2,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ricardo17coelho.github.io/CarRent/</loc>
-         <lastmod>2021-07-04</lastmod>
+         <lastmod>2021-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ricardo17coelho.github.io/CarRent/00.Description/</loc>
-         <lastmod>2021-07-04</lastmod>
+         <lastmod>2021-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ricardo17coelho.github.io/CarRent/01.IntroductionAndGoals/</loc>
-         <lastmod>2021-07-04</lastmod>
+         <lastmod>2021-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ricardo17coelho.github.io/CarRent/02.Vision/</loc>
-         <lastmod>2021-07-04</lastmod>
+         <lastmod>2021-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricardo17coelho.github.io/CarRent/03.BigPicture/</loc>
-         <lastmod>2021-07-04</lastmod>
+         <loc>https://ricardo17coelho.github.io/CarRent/03.ArchitectureConstraints/</loc>
+         <lastmod>2021-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricardo17coelho.github.io/CarRent/04.DomainModel/</loc>
-         <lastmod>2021-07-04</lastmod>
+         <loc>https://ricardo17coelho.github.io/CarRent/04.BigPicture/</loc>
+         <lastmod>2021-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricardo17coelho.github.io/CarRent/05.UseCases/</loc>
-         <lastmod>2021-07-04</lastmod>
+         <loc>https://ricardo17coelho.github.io/CarRent/05.DomainModel/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/06.UseCases/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/07.ContextAndScope/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/08.SolutionStrategy/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/09.ImplementationView/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/10.LogicalView/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/11.DeploymentView/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/12.TestingAndMetrics/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/13.OpenApi/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/14.FurtherDevelopment/</loc>
+         <lastmod>2021-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ricardo17coelho.github.io/CarRent/20.Glossary/</loc>
-         <lastmod>2021-07-04</lastmod>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/00.Index/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/01.IntroductionandGoals/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/02.ArchitectureConstraints/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/03.ContextAndScope/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/04.SolutionStrategy/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/05.RuntimeView/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/06.DeploymentView/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/07.LogicalView/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/08.QualityRequirements/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/09.TestingAndMetrics/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/10.Glossary/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/11.OpenApi/</loc>
+         <lastmod>2021-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricardo17coelho.github.io/CarRent/arc42/12.FurtherDevelopment/</loc>
+         <lastmod>2021-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

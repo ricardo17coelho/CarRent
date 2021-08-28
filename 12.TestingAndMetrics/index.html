@@ -9,7 +9,7 @@
       
       
       
-        <link rel="canonical" href="https://ricardo17coelho.github.io/CarRent/20.Glossary/">
+        <link rel="canonical" href="https://ricardo17coelho.github.io/CarRent/12.TestingAndMetrics/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.8">
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#20-gloassary" class="md-skip">
+        <a href="#12-testing-and-metrics" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              20-Gloassary
+              12-Testing and Metrics
             
           </span>
         </div>
@@ -358,11 +358,78 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../12.TestingAndMetrics/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          12-Testing and Metrics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         12-Testing and Metrics
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#continuous-integration" class="md-nav__link">
+    Continuous Integration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing" class="md-nav__link">
+    Testing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-metrics" class="md-nav__link">
+    Code Metrics
+  </a>
+  
+    <nav class="md-nav" aria-label="Code Metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sonarcloud" class="md-nav__link">
+    SonarCloud
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -403,21 +470,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../20.Glossary/" class="md-nav__link">
         20-Gloassary
       </a>
-      
     </li>
   
 
@@ -627,6 +684,48 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#continuous-integration" class="md-nav__link">
+    Continuous Integration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing" class="md-nav__link">
+    Testing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-metrics" class="md-nav__link">
+    Code Metrics
+  </a>
+  
+    <nav class="md-nav" aria-label="Code Metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sonarcloud" class="md-nav__link">
+    SonarCloud
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -638,21 +737,21 @@
               
                 
                 
-                <h1 id="20-gloassary">20-Gloassary</h1>
-<table>
-<thead>
-<tr>
-<th>Term</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>CRUD</td>
-<td>Create, Read, Update, Delete</td>
-</tr>
-</tbody>
-</table>
+                <h1 id="12-testing-and-metrics">12-Testing and Metrics</h1>
+<h2 id="continuous-integration">Continuous Integration</h2>
+<p>Mithilfe von GitHub Actions wurde eine Build Pipeline eingerichtet, welcher nach jedem Commit auf dem Master-Branch ausgeführt wird.</p>
+<h2 id="testing">Testing</h2>
+<p>Es wurden Unit Test für das Projekt erstellt und im Projekt CarRent.Test hinterlegt. Die Tests werden während dem Build-Process ausgeführt und Protokolliert.</p>
+<h2 id="code-metrics">Code Metrics</h2>
+<p>Um die Code Qualität und Metriken zu testen und zu erfassen wird Sonarcloud verwendet und wurde auch in den Buildprocess integriert.</p>
+<h3 id="sonarcloud">SonarCloud</h3>
+<p><a href="https://sonarcloud.io/dashboard?id=ricardo17coelho_carrent-api"><img alt="Lines of Code" src="https://sonarcloud.io/api/project_badges/measure?project=ricardo17coelho_carrent-api&amp;metric=ncloc" /></a>
+<a href="https://sonarcloud.io/dashboard?id=ricardo17coelho_carrent-api"><img alt="Maintainability Rating" src="https://sonarcloud.io/api/project_badges/measure?project=ricardo17coelho_carrent-api&amp;metric=sqale_rating" /></a>
+<a href="https://sonarcloud.io/dashboard?id=ricardo17coelho_carrent-api"><img alt="Reliability Rating" src="https://sonarcloud.io/api/project_badges/measure?project=ricardo17coelho_carrent-api&amp;metric=reliability_rating" /></a>
+<a href="https://sonarcloud.io/dashboard?id=ricardo17coelho_carrent-api"><img alt="Security Rating" src="https://sonarcloud.io/api/project_badges/measure?project=ricardo17coelho_carrent-api&amp;metric=security_rating" /></a>
+<a href="https://sonarcloud.io/dashboard?id=ricardo17coelho_carrent-api"><img alt="Bugs" src="https://sonarcloud.io/api/project_badges/measure?project=ricardo17coelho_carrent-api&amp;metric=bugs" /></a>
+<a href="https://sonarcloud.io/dashboard?id=ricardo17coelho_carrent-api"><img alt="Duplicated Lines (%)" src="https://sonarcloud.io/api/project_badges/measure?project=ricardo17coelho_carrent-api&amp;metric=duplicated_lines_density" /></a>
+<a href="https://sonarcloud.io/dashboard?id=ricardo17coelho_carrent-api"><img alt="Coverage" src="https://sonarcloud.io/api/project_badges/measure?project=ricardo17coelho_carrent-api&amp;metric=coverage" /></a></p>
                 
               
               
