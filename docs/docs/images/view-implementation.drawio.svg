@@ -1,0 +1,260 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1042px" height="706px" viewBox="-0.5 -0.5 1042 706" content="&lt;mxfile&gt;&lt;diagram id=&quot;CI6JqvSHHVshfz5zFZM8&quot; name=&quot;Page-1&quot;&gt;5Ztdc5s4FIZ/jS+b4cvYvoztpO1MOtutd2Z3LxWQMa2MqBCx3V/fI5AwRIrbmVDhUt8EXgmBHr0InQOZ+Kv98S1D+e4DjTGZeE58nPjried5wcyDP0I51co8mNdCwtK4ltyzsEm/YSk6Ui3TGBedipxSwtO8K0Y0y3DEOxpijB661baUdM+aowRrwiZCRFf/TWO+k6obLs4F73Ca7OSp596sLtgjVVn2pNihmB5akn838VeMUl5v7Y8rTAQ8xaU+7v6F0ubCGM74zxwgB+IJkVL2bYXYiqCiWNGMM0oIZvJK+Ul1Hy46F5t7GpdCWyKSJhkIBG/hrMsiR1GaJQ/V3hqu4FwjguuCFv3lE2Y8BaK3soDTHFR5NVCGjy/2yG04gcEw3WPOTlBFHhBKstJari/3D62BUnV2rTGaSg1JbyRNy2d8sCEJmmn6JppLhrJ4JDQb39qgGZho/nPK8Uhg+q5FmFPjjT4OkIFjEWSogywLDu2MhebUJs2ZRvMTLjB7Qjyl2ViALiwCnev2FBRRxEdCM5xbpLkwzppiebQBk6YR/r1Q+s6AiyP1tDOsjkYB0+rayHVNMMXiaBQsrS6NXGMQNAqOVldGriH8kUujUcC0ujBy9eintTIaB0+b6yLXEADJhdEoYFpdFqnQvAULxwneyF3K+I4mNEPk7qwuGS2zGIsWBKlznQcqmKxdED9jzk8y3YdKTkHa8T2RpUCGnf4Tx9+4wVQJ/8sGq531sbMn2AQ3flP3I2YpdFaMTFWr7oW49MujAD2lJYtULRkCcsQSLKvVqR99tBgmcMM+ddt/lY8N8adckn7COS1STmWDv42Vp7MBV6UqMTKUlX/Wxm7fJp4NaWI97FehwFhMbDUaUEmpazdx4PRs4vmQJjakWuoQbCwethqFqVTgVXj4ZnrBxX2beDGkiY0ZrrEY2Gr4q1KvV2HgC/Zd9Oxf9aAbxL/q5Iacw1hMbDXtoDLe12Bi94KJ3/S9Hm6+IxnExXo2t5XsGY2RbeZ7VAx5LSmKi2buP0chhOHs7OmTssy1jcXLdtNtemJ9DZ1yBFR85BMvJALQI4OtRGx92Gz+fngRcHQiKdic+VDzsEs53gBZUXBgKO/6+bG+IR4eGwFFX5LqNvmr5NAMlnpR3xHVrNwD7sX8WSQSGnA7BtxN7uhVc4fuXw1md6r4AcaCM/oFryihrDradxwwlDhwC0PY0rfVT+gpIUrPqMAsG1HfG/r9gA66nA0zdPPeto05DPvArNv6dZhfBVMbI/G7v+8HszebDshZf5V0TZxXK8dxnJ6m6UH9rL9iUlOzIDYR3yOrXodfS/GJ77KaC+DsTltyCvXFs9LcdnE9xzezfmcgVS1xwjd1M7dQwQvyo97E7cf3qhXo2+PzlkGrr1vJzzxTPXs6xvjh83ifxnH1bDc5rOvBl0zWg0u0AEszyczgEa8Pi+hvb55Z5PLQmx0kfsDml1gkzwkMoAhD/kir+MF0MK/oL0l68EoUVbPtr/DK+2zLEEzvZcRLhv9Iu4SurakFds//JVKVtf7Xxr/7Dg==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <path d="M 31 84 L 181 84 L 181 134 L 31 134 L 31 124 L 21 124 L 21 114 L 31 114 L 31 104 L 21 104 L 21 94 L 31 94 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 31 94 L 41 94 L 41 104 L 31 104 M 31 114 L 41 114 L 41 124 L 31 124" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="110.5" y="101.5">
+                CarClassController
+            </text>
+        </g>
+        <path d="M 31 174 L 181 174 L 181 224 L 31 224 L 31 214 L 21 214 L 21 204 L 31 204 L 31 194 L 21 194 L 21 184 L 31 184 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 31 184 L 41 184 L 41 194 L 31 194 M 31 204 L 41 204 L 41 214 L 31 214" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="110.5" y="191.5">
+                CarBrandController
+            </text>
+        </g>
+        <path d="M 31 264 L 181 264 L 181 314 L 31 314 L 31 304 L 21 304 L 21 294 L 31 294 L 31 284 L 21 284 L 21 274 L 31 274 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 31 274 L 41 274 L 41 284 L 31 284 M 31 294 L 41 294 L 41 304 L 31 304" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="110.5" y="281.5">
+                CarTypeController
+            </text>
+        </g>
+        <path d="M 31 354 L 181 354 L 181 404 L 31 404 L 31 394 L 21 394 L 21 384 L 31 384 L 31 374 L 21 374 L 21 364 L 31 364 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 31 364 L 41 364 L 41 374 L 31 374 M 31 384 L 41 384 L 41 394 L 31 394" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="110.5" y="371.5">
+                CarController
+            </text>
+        </g>
+        <path d="M 31 454 L 181 454 L 181 504 L 31 504 L 31 494 L 21 494 L 21 484 L 31 484 L 31 474 L 21 474 L 21 464 L 31 464 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 31 464 L 41 464 L 41 474 L 31 474 M 31 484 L 41 484 L 41 494 L 31 494" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="110.5" y="471.5">
+                CustomerController
+            </text>
+        </g>
+        <path d="M 31 544 L 181 544 L 181 594 L 31 594 L 31 584 L 21 584 L 21 574 L 31 574 L 31 564 L 21 564 L 21 554 L 31 554 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 31 554 L 41 554 L 41 564 L 31 564 M 31 574 L 41 574 L 41 584 L 31 584" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="110.5" y="561.5">
+                ReservationController
+            </text>
+        </g>
+        <path d="M 31 634 L 181 634 L 181 684 L 31 684 L 31 674 L 21 674 L 21 664 L 31 664 L 31 654 L 21 654 L 21 644 L 31 644 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 31 644 L 41 644 L 41 654 L 31 654 M 31 664 L 41 664 L 41 674 L 31 674" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="110.5" y="651.5">
+                ContractController
+            </text>
+        </g>
+        <path d="M 271 84 L 421 84 L 421 134 L 271 134 L 271 124 L 261 124 L 261 114 L 271 114 L 271 104 L 261 104 L 261 94 L 271 94 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 271 94 L 281 94 L 281 104 L 271 104 M 271 114 L 281 114 L 281 124 L 271 124" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="350.5" y="101.5">
+                CarClassService
+            </text>
+        </g>
+        <path d="M 271 174 L 421 174 L 421 224 L 271 224 L 271 214 L 261 214 L 261 204 L 271 204 L 271 194 L 261 194 L 261 184 L 271 184 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 271 184 L 281 184 L 281 194 L 271 194 M 271 204 L 281 204 L 281 214 L 271 214" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="350.5" y="191.5">
+                CarBrandService
+            </text>
+        </g>
+        <path d="M 271 264 L 421 264 L 421 314 L 271 314 L 271 304 L 261 304 L 261 294 L 271 294 L 271 284 L 261 284 L 261 274 L 271 274 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 271 274 L 281 274 L 281 284 L 271 284 M 271 294 L 281 294 L 281 304 L 271 304" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="350.5" y="281.5">
+                CarTypeService
+            </text>
+        </g>
+        <path d="M 271 354 L 421 354 L 421 404 L 271 404 L 271 394 L 261 394 L 261 384 L 271 384 L 271 374 L 261 374 L 261 364 L 271 364 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 271 364 L 281 364 L 281 374 L 271 374 M 271 384 L 281 384 L 281 394 L 271 394" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="350.5" y="371.5">
+                CarService
+            </text>
+        </g>
+        <path d="M 271 454 L 421 454 L 421 504 L 271 504 L 271 494 L 261 494 L 261 484 L 271 484 L 271 474 L 261 474 L 261 464 L 271 464 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 271 464 L 281 464 L 281 474 L 271 474 M 271 484 L 281 484 L 281 494 L 271 494" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="350.5" y="471.5">
+                CustomerService
+            </text>
+        </g>
+        <path d="M 271 544 L 421 544 L 421 594 L 271 594 L 271 584 L 261 584 L 261 574 L 271 574 L 271 564 L 261 564 L 261 554 L 271 554 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 271 554 L 281 554 L 281 564 L 271 564 M 271 574 L 281 574 L 281 584 L 271 584" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="350.5" y="561.5">
+                ReservationService
+            </text>
+        </g>
+        <path d="M 271 634 L 421 634 L 421 684 L 271 684 L 271 674 L 261 674 L 261 664 L 271 664 L 271 654 L 261 654 L 261 644 L 271 644 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 271 644 L 281 644 L 281 654 L 271 654 M 271 664 L 281 664 L 281 674 L 271 674" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="350.5" y="651.5">
+                ContractService
+            </text>
+        </g>
+        <path d="M 691 109 L 955.5 109 L 955.5 311.98" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 955.5 317.23 L 952 310.23 L 955.5 311.98 L 959 310.23 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 84 L 691 84 L 691 134 L 541 134 L 541 124 L 531 124 L 531 114 L 541 114 L 541 104 L 531 104 L 531 94 L 541 94 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 94 L 551 94 L 551 104 L 541 104 M 541 114 L 551 114 L 551 124 L 541 124" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="620.5" y="101.5">
+                CarClassRepository
+            </text>
+        </g>
+        <path d="M 691 199 L 816 199 L 816 329 L 934.63 329" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 939.88 329 L 932.88 332.5 L 934.63 329 L 932.88 325.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 174 L 691 174 L 691 224 L 541 224 L 541 214 L 531 214 L 531 204 L 541 204 L 541 194 L 531 194 L 531 184 L 541 184 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 184 L 551 184 L 551 194 L 541 194 M 541 204 L 551 204 L 551 214 L 541 214" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="620.5" y="191.5">
+                CarBrandRepository
+            </text>
+        </g>
+        <path d="M 691 289 L 816 289 L 816 354 L 934.63 354" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 939.88 354 L 932.88 357.5 L 934.63 354 L 932.88 350.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 264 L 691 264 L 691 314 L 541 314 L 541 304 L 531 304 L 531 294 L 541 294 L 541 284 L 531 284 L 531 274 L 541 274 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 274 L 551 274 L 551 284 L 541 284 M 541 294 L 551 294 L 551 304 L 541 304" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="620.5" y="281.5">
+                CarTypeRepository
+            </text>
+        </g>
+        <path d="M 691 379 L 934.63 379" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 939.88 379 L 932.88 382.5 L 934.63 379 L 932.88 375.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 354 L 691 354 L 691 404 L 541 404 L 541 394 L 531 394 L 531 384 L 541 384 L 541 374 L 531 374 L 531 364 L 541 364 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 364 L 551 364 L 551 374 L 541 374 M 541 384 L 551 384 L 551 394 L 541 394" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="620.5" y="371.5">
+                CarRepository
+            </text>
+        </g>
+        <path d="M 691 479 L 816 479 L 816 404 L 934.63 404" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 939.88 404 L 932.88 407.5 L 934.63 404 L 932.88 400.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 454 L 691 454 L 691 504 L 541 504 L 541 494 L 531 494 L 531 484 L 541 484 L 541 474 L 531 474 L 531 464 L 541 464 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 464 L 551 464 L 551 474 L 541 474 M 541 484 L 551 484 L 551 494 L 541 494" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="620.5" y="471.5">
+                CustomerRepository
+            </text>
+        </g>
+        <path d="M 691 569 L 816 569 L 816 429 L 934.63 429" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 939.88 429 L 932.88 432.5 L 934.63 429 L 932.88 425.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 544 L 691 544 L 691 594 L 541 594 L 541 584 L 531 584 L 531 574 L 541 574 L 541 564 L 531 564 L 531 554 L 541 554 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 554 L 551 554 L 551 564 L 541 564 M 541 574 L 551 574 L 551 584 L 541 584" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="620.5" y="561.5">
+                ReservationRepository
+            </text>
+        </g>
+        <path d="M 691 659 L 955.5 659 L 955.5 446.02" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 955.5 440.77 L 959 447.77 L 955.5 446.02 L 952 447.77 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 634 L 691 634 L 691 684 L 541 684 L 541 674 L 531 674 L 531 664 L 541 664 L 541 654 L 531 654 L 531 644 L 541 644 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 541 644 L 551 644 L 551 654 L 541 654 M 541 664 L 551 664 L 551 674 L 541 674" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="620.5" y="651.5">
+                ContractRepository
+            </text>
+        </g>
+        <path d="M 941 329 C 941 320.72 963.39 314 991 314 C 1004.26 314 1016.98 315.58 1026.36 318.39 C 1035.73 321.21 1041 325.02 1041 329 L 1041 429 C 1041 437.28 1018.61 444 991 444 C 963.39 444 941 437.28 941 429 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1041 329 C 1041 337.28 1018.61 344 991 344 C 963.39 344 941 337.28 941 329" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 98px; height: 1px; padding-top: 392px; margin-left: 942px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                DB Context
+                                <br/>
+                                MSSQL
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="991" y="395" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    DB Context...
+                </text>
+            </switch>
+        </g>
+        <rect x="1" y="44" width="210" height="660" fill="none" stroke="#005700" stroke-width="3" pointer-events="all"/>
+        <rect x="236" y="44" width="210" height="660" fill="none" stroke="#3333ff" stroke-width="3" pointer-events="all"/>
+        <rect x="501" y="44" width="210" height="660" fill="none" stroke="#cc0000" stroke-width="3" pointer-events="all"/>
+        <rect x="31" y="4" width="70" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 68px; height: 1px; padding-top: 14px; margin-left: 32px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#006600" size="1">
+                                    <b style="font-size: 24px">
+                                        API
+                                    </b>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="66" y="18" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    API
+                </text>
+            </switch>
+        </g>
+        <rect x="306" y="4" width="70" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 68px; height: 1px; padding-top: 14px; margin-left: 307px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font size="1" color="#3333ff">
+                                    <b style="font-size: 24px">
+                                        Application
+                                    </b>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="341" y="18" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Application
+                </text>
+            </switch>
+        </g>
+        <rect x="571" y="4" width="70" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 68px; height: 1px; padding-top: 14px; margin-left: 572px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font size="1" color="#cc0000">
+                                    <b style="font-size: 24px">
+                                        Infrastructure
+                                    </b>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="606" y="18" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Infrastruct...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
