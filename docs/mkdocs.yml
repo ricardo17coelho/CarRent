@@ -1,5 +1,6 @@
 site_name: ZbwCarRent
 site_url: https://ricardo17coelho.github.io/CarRent/
+repo_url: https://github.com/ricardo17coelho/CarRent
 theme:
   name: material
   custom_dir: overrides
